@@ -1,0 +1,9 @@
+export const ROLES = {
+  PATIENT: "PATIENT",
+  HOSPITAL_ADMIN: "HOSPITAL_ADMIN",
+  DOCTOR: "DOCTOR",
+  AMBULANCE_DRIVER: "AMBULANCE_DRIVER",
+  SUPER_ADMIN: "SUPER_ADMIN",
+} as const;
+
+export const ALL_ROLES = Object.values(ROLES);

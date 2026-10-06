@@ -1,0 +1,25 @@
+{
+  "name": "medireach",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MediReach - Real-Time Hospital Availability, Emergency Assistance & Patient Navigation Platform",
+  "workspaces": [
+    "server",
+    "shared",
+    "apps/hospital-web",
+    "apps/admin-web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=server",
+    "build": "npm run build --workspace=server",
+    "start": "npm run start --workspace=server",
+    "migrate": "npm run migrate --workspace=server",
+    "migrate:down": "npm run migrate:down --workspace=server",
+    "seed": "npm run seed --workspace=server",
+    "test": "npm run test --workspace=server",
+    "lint": "npm run lint --workspace=server"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

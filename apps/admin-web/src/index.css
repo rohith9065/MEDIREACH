@@ -1,0 +1,29 @@
+@import "@fontsource/public-sans/400.css";
+@import "@fontsource/public-sans/500.css";
+@import "@fontsource/public-sans/600.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-mono;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+  @apply font-mono;
+}

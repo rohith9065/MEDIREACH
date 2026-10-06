@@ -1,0 +1,6 @@
+export const BED_TYPES = ["ICU", "GENERAL", "EMERGENCY", "PEDIATRIC", "MATERNITY", "ISOLATION"] as const;
+export const EMERGENCY_STATUSES = ["AVAILABLE", "LIMITED", "UNAVAILABLE"] as const;
+export const FACILITY_STATUSES = ["AVAILABLE", "LIMITED", "UNAVAILABLE"] as const;
+export const DOCTOR_STATUSES = ["AVAILABLE", "UNAVAILABLE"] as const;
+export const DEPARTMENT_STATUSES = ["ACTIVE", "INACTIVE"] as const;
+export const HOSPITAL_STATUSES = ["PENDING", "VERIFIED", "REJECTED", "SUSPENDED"] as const;

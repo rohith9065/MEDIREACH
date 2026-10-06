@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MediReach Driver",
+    "slug": "medireach-ambulance-driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#14171A",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-font",
+      "expo-splash-screen",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MediReach Driver shares your location with dispatch while you're on shift and on a trip, so patients can see the ambulance approaching."
+        }
+      ]
+    ]
+  }
+}
